@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+    background-image: url('../images/bg-tablet-pattern.svg');
+    background-repeat: no-repeat;
+    background-size: 800px;
+    background-position: 105% -5%; 
+
+    
+}
+#testimonials{
+    background-image:url('../images/bg-tablet-pattern.svg') ;
+    background-repeat: no-repeat;
+    background-size: 800px;
+    background-position:-35% -5%; 
+
+} 
+@media(max-width:768px){
+    body{
+        background-position: 50px -20px;
+        background-size: 500px;
+    }
+    #testimonials{
+        background-image:url('../images/bg-simplify-section-mobile.svg');
+
+    }
+}
+/* .hamburger{
+    cursor:pointer;
+    width:24px;
+    height:24px;
+    transition: all 0.25;
+    position:relative;
+}
+.hamburger-top,
+.hamburger-middle,
+.hamburger-bottom
+{
+    position:absolute;
+    top:0;
+    left:0;
+    width:24px;
+    height:24px;
+    background: #000;
+}
+.hamburger-middle{
+    transform: translateY(7px);
+}
+.hamburger-bottom{
+    transform: translateY(14px);
+}
+.open{
+    transform:rotate(90deg);
+    transform:translateY(0px);
+}
+.open .hamburger-top{
+    transform:rotate(45deg)  translateY(6px)  translate(6px);
+ 
+} */
